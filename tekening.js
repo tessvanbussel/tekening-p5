@@ -56,7 +56,7 @@ function draw(){
   r=random(255)
   g=random(255)
   b=random(255)
-  fill(r,g,b)
+  fill(100,0,255)
   ellipse(xBall3, yBall3, 2*radius, 2*radius);
 }
 
