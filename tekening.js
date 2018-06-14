@@ -55,3 +55,12 @@ function draw(){
   if (yBall3 > height - radius || yBall3 < radius){
       ySpeed3 = -ySpeed3;
   }
+    xBall3 += xSpeed3;
+  yBall3 += ySpeed3;
+  r=random(255)
+  g=random(255)
+  b=random(255)
+  fill(r,g,b)
+  ellipse(xBall3, yBall3, 2*radius, 2*radius);
+}
+
