@@ -28,10 +28,8 @@ function draw(){
   }
   xBall1 += xSpeed1;
   yBall1 += ySpeed1;
-   r=random(255)
-  g=random(255)
-  b=random(255)
-  fill(r,g,b)
+  
+  fill(0,150,0)
 
   ellipse(xBall1, yBall1, 2*radius, 2*radius);
   
