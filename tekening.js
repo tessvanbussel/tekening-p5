@@ -28,8 +28,10 @@ function draw(){
   }
   xBall1 += xSpeed1;
   yBall1 += ySpeed1;
-  
-  fill(255,255,0)
+   r=random(255)
+  g=random(255)
+  b=random(255)
+  fill(g,r,b)
 
   ellipse(xBall1, yBall1, 2*radius, 2*radius);
   
@@ -42,7 +44,10 @@ function draw(){
   xBall2 += xSpeed2;
   yBall2 += ySpeed2;
      
-  fill(255,0,0)
+   r=random(255)
+  g=random(255)
+  b=random(255)
+  fill(g,r,b)
   ellipse(xBall2, yBall2, 2*radius, 2*radius);
   
   if (xBall3 > width - radius || xBall3 < radius){
